@@ -6,3 +6,7 @@
 
 ## ФАЙЛЫ 
 -'week1.sql' - 5 запросов на SELECT (SQLBolt Lesson 1)
+
+- День 1 - SELECT, FROM (ВВОДНЫЙ КУРС)
+- День 2 - WHERE, AND, OR, BETWEEN (ЦИКЛЫ, ОТСЕИВАНИЕ)
+
