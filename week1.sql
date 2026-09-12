@@ -15,3 +15,18 @@ SELECT ID FROM MOVIES WHERE ID=1;
 SELECT title, director, year FROM movies
 WHERE Director = ("John Lasseter" or director =  "Brad Bird" 
 and year between 2000 and 2011);
+
+day 3 
+sql LIKE, NOT LIKE, %% "ABC" IN ("A", "B", "C") NOT IN ("A","B","C")
+
+SELECT * FROM MOVIES
+WHERE TITLE LIKE "WALL-%"
+WHERE YEAR LIKE "20%"
+WHERE LENGTH_MINUTES NOT LIKE "10%" AND YEAR NOT LIKE "20%" AND TITLE
+ LIKE "toy%" or title like "%BUG%" and director like "ss"
+
+WHERE  LENGTH_MINUTES NOT BETWEEN '110' AND '145'
+	AND (TITLE LIKE 'Toy%' OR DIRECTOR LIKE '%AD%')
+WHERE YEAR BETWEEN 1990 AND 2000
+	OR DIRECTOR LIKE '%BRAD%'
+ 
