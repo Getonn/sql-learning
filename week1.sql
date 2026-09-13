@@ -30,3 +30,22 @@ WHERE  LENGTH_MINUTES NOT BETWEEN '110' AND '145'
 WHERE YEAR BETWEEN 1990 AND 2000
 	OR DIRECTOR LIKE '%BRAD%'
  
+day 4
+
+Summary: between 1st and 3rd days;
+
+SELECT * FROM MOVIES
+	WHERE TITLE LIKE '%A%'
+	AND (YEAR BETWEEN 2009 AND 2014 OR DIRECTOR LIKE '%STANTO_');
+	
+	WHERE DIRECTOR LIKE '%BIRD' OR YEAR BETWEEN 2008 AND 2009;
+	
+	WHERE YEAR IS 2004 AND LENGTH_MINUTES > 110;
+	
+	WHERE YEAR IN ('1995','2001');
+	
+	WHERE YEAR BETWEEN 1 AND 2000 AND DIRECTOR LIKE '%ss%';
+
+HINT: Создал прототип опросника на python, для автоматизации процесса приема
+клиентов и записи на юридическую консультацию с ветвлением логики исходя из
+ответов. (ver. 0.1 Stable)
